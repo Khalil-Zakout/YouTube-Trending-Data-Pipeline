@@ -70,15 +70,25 @@ This pipeline automates YouTube trending data collection, transformation, and re
 - The final DAG runs weekly (or manually on-demand) to summarize the latest insights.
 - It identifies top categories, total engagement, and growth trends per region, then emails a formatted HTML summary report automatically.
 
+#
+The following diagram illustrates the end-to-end flow of the YouTube Trending Data Pipeline, showing how data moves from source to insights:
+
+![Work Flow](assets/WorkFlow.png)
+
 --- 
 
 ## Use Case
-This pipeline provides daily and weekly insights into YouTube’s trending ecosystem.  
-It enables content analysts, marketers, and media strategists to:
-- Identify top-performing categories by region.
-- Track engagement trends over time.
-- Measure audience preferences across countries.
-- Automate analytics reporting with zero manual effort.
+This pipeline provides actionable insights into YouTube’s trending ecosystem on a daily and weekly basis. It enables:
+
+- **Content Analysts**: Quickly identify top-performing video categories per region and track trending content.  
+- **Marketers**: Measure engagement metrics and audience preferences to optimize campaigns.  
+- **Media Strategists**: Monitor growth trends and emerging topics for data-driven decisions.  
+
+**Scenario:**  
+A social media manager can use this pipeline to automatically receive weekly reports showing the top trending video categories in the US and India, along with engagement ratios. This allows them to adjust content strategies without manual data collection or analysis.
 
 ---
 ## Sample
+
+**Weekly Email Report**
+![Email](assets/email.png)
