@@ -58,7 +58,7 @@ This pipeline automates YouTube trending data collection, transformation, and re
 **1️⃣ Data Ingestion (Daily)**
 
 - The first DAG fetches trending videos from the **YouTube Data API** for **multiple regions**.
-- **Raw JSON** files are stored in **Google Cloud Storage (GCS)**.
+- **Raw JSON** files are stored in **Google Cloud Storage (GCS)** -Check **`assets`** for an example of a full JSON-.
 - The DAG then parses and loads the structured data into **BigQuery** (Raw Dataset) tables:
   - **daily_trending_videos**: contains the trending videos' data. 
   - **channels**: contains the videos' channels data like (subscribres count, channel's categort, etc) for further analysis.
