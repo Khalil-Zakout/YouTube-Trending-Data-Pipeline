@@ -88,7 +88,17 @@ This pipeline provides actionable insights into YouTube’s trending ecosystem o
 A social media manager can use this pipeline to automatically receive weekly reports showing the top trending video categories in the US and India, along with engagement ratios. This allows them to adjust content strategies without manual data collection or analysis.
 
 ---
-## Sample
+## Samples
 
-**Weekly Email Report**
-![Email](assets/email.png)
+**-Daily Insights Table**
+
+<img src="assets/daily insights data.png" alt="Daily Insights Table" width="750">
+
+
+**- Weekly Email Report**
+
+<img src="assets/email.png" alt="Email" width="500">
+
+**- Data Ingestion Dag Graph**
+
+<img src="assets/data ingestion graph.png" alt="Data Ingestion Graph" width="750">
